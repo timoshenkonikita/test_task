@@ -1,0 +1,3 @@
+{
+  "message": "pq: INSERT или UPDATE в таблице \"products\" нарушает ограничение внешнего ключа \"products_measure_id_fkey\""
+}

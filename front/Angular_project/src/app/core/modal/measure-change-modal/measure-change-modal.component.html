@@ -1,0 +1,42 @@
+<div class="modal-overlay"
+     (click)="closeDialog()">
+    <div class="modal-content"
+         (click)="$event.stopPropagation()">
+        <div class="modal-header">
+            <h2>Информация о единице измерения</h2>
+            <button mat-icon-button
+                    color="primary"
+                    (click)="closeDialog()">
+                <mat-icon>close</mat-icon>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+                <label for="id">ID</label>
+                <input id="id"
+                       matInput
+                       [(ngModel)]="editedMeasure.id"
+                       disabled>
+            </div>
+            <div class="form-group">
+                <label for="value">Значение</label>
+                <input id="value"
+                       matInput
+                       [(ngModel)]="editedMeasure.value"
+                       [disabled]="!editMode"
+                       type="string">
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button *ngIf="editMode"
+                    mat-raised-button
+                    color="primary"
+                    (click)="updateMeasure()">Сохранить</button>
+            <button mat-raised-button
+                    (click)="toggleEditMode()">{{ editMode ? 'Отменить изменения' : 'Изменить' }}</button>
+            <button mat-raised-button
+                    color="warn"
+                    (click)="deleteMeasure()">Удалить</button>
+        </div>
+    </div>
+</div>

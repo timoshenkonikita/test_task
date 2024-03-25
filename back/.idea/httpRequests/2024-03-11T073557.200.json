@@ -1,0 +1,163 @@
+[
+  {
+    "id": 2,
+    "name": "молоко",
+    "quantity": 10,
+    "unit_cost": 50,
+    "measure_id": 1
+  },
+  {
+    "id": 3,
+    "name": "хлеб",
+    "quantity": 50,
+    "unit_cost": 50,
+    "measure_id": 1
+  },
+  {
+    "id": 4,
+    "name": "яйца",
+    "quantity": 5,
+    "unit_cost": 150,
+    "measure_id": 1
+  },
+  {
+    "id": 5,
+    "name": "колбаса",
+    "quantity": 8,
+    "unit_cost": 250,
+    "measure_id": 1
+  },
+  {
+    "id": 6,
+    "name": "кефир",
+    "quantity": 12,
+    "unit_cost": 68,
+    "measure_id": 1
+  },
+  {
+    "id": 7,
+    "name": "пельмени",
+    "quantity": 20,
+    "unit_cost": 300,
+    "measure_id": 1
+  },
+  {
+    "id": 8,
+    "name": "куриное филе",
+    "quantity": 8,
+    "unit_cost": 360,
+    "measure_id": 1
+  },
+  {
+    "id": 9,
+    "name": "майонез",
+    "quantity": 18,
+    "unit_cost": 120,
+    "measure_id": 1
+  },
+  {
+    "id": 10,
+    "name": "вода",
+    "quantity": 50,
+    "unit_cost": 60,
+    "measure_id": 1
+  },
+  {
+    "id": 11,
+    "name": "шоколад",
+    "quantity": 30,
+    "unit_cost": 100,
+    "measure_id": 1
+  },
+  {
+    "id": 12,
+    "name": "йогурт",
+    "quantity": 20,
+    "unit_cost": 50,
+    "measure_id": 1
+  },
+  {
+    "id": 13,
+    "name": "сметана",
+    "quantity": 20,
+    "unit_cost": 80,
+    "measure_id": 1
+  },
+  {
+    "id": 14,
+    "name": "test",
+    "quantity": 20,
+    "unit_cost": 80,
+    "measure_id": 1
+  },
+  {
+    "id": 15,
+    "name": "test2",
+    "quantity": 20,
+    "unit_cost": 80,
+    "measure_id": 1
+  },
+  {
+    "id": 16,
+    "name": "test3",
+    "quantity": 20,
+    "unit_cost": 80,
+    "measure_id": 1
+  },
+  {
+    "id": 17,
+    "name": "test4",
+    "quantity": 20,
+    "unit_cost": 80,
+    "measure_id": 1
+  },
+  {
+    "id": 18,
+    "name": "test5",
+    "quantity": 20,
+    "unit_cost": 80,
+    "measure_id": 1
+  },
+  {
+    "id": 19,
+    "name": "test6",
+    "quantity": 20,
+    "unit_cost": 80,
+    "measure_id": 1
+  },
+  {
+    "id": 20,
+    "name": "test7",
+    "quantity": 20,
+    "unit_cost": 80,
+    "measure_id": 1
+  },
+  {
+    "id": 21,
+    "name": "test8",
+    "quantity": 20,
+    "unit_cost": 80,
+    "measure_id": 1
+  },
+  {
+    "id": 22,
+    "name": "test9",
+    "quantity": 20,
+    "unit_cost": 80,
+    "measure_id": 1
+  },
+  {
+    "id": 23,
+    "name": "test10",
+    "quantity": 20,
+    "unit_cost": 80,
+    "measure_id": 1
+  },
+  {
+    "id": 24,
+    "name": "test11",
+    "quantity": 20,
+    "unit_cost": 80,
+    "measure_id": 1
+  }
+]

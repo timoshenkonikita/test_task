@@ -1,0 +1,46 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 64px;
+    background-color: #111;
+    height: 60px;
+}
+
+.nav {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.logo_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background-color: #394aa9;
+    height: 60px;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: #fff;
+}
+
+.router_container{
+    padding: 16px;
+}
+
+.link{
+    margin: 8px;
+    font-size: 1rem;
+    color: #fff;
+    outline: none;
+    text-decoration: none;
+
+}
+
+.active-link {
+    color: #9560e0;
+}

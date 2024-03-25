@@ -1,0 +1,30 @@
+<div class="modal-overlay"
+     (click)="closeDialog()">
+    <div class="modal-content"
+         (click)="$event.stopPropagation()">
+        <div class="modal-header">
+            <h2>Информация об единице измерения</h2>
+            <button mat-icon-button
+                    color="primary"
+                    (click)="closeDialog()">
+                <mat-icon>close</mat-icon>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+                <label for="value">Значение:</label>
+                <input id="value"
+                       matInput
+                       [(ngModel)]="newMeasure.value">
+            </div>
+
+            <div class="modal-footer">
+                <button mat-raised-button
+                        color="primary"
+                        (click)="createProduct()">Сохранить</button>
+                <button mat-raised-button
+                        color="warn"
+                        (click)="closeDialog()">Отменить</button>
+            </div>
+        </div>
+    </div>

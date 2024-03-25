@@ -1,0 +1,680 @@
+POST http://localhost:8080/measure
+Content-Type: application/json
+Content-Length: 21
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "value": "л"
+}
+
+<> 2024-03-16T145148.200.json
+
+###
+
+POST http://localhost:8080/measure
+Content-Type: application/json
+Content-Length: 23
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "value": "кг"
+}
+
+<> 2024-03-16T145140.200.json
+
+###
+
+POST http://localhost:8080/measure
+Content-Type: application/json
+Content-Length: 23
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "value": "кг"
+}
+
+<> 2024-03-16T145130.200.json
+
+###
+
+GET http://localhost:8080/product/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-11T073559.200.json
+
+###
+
+GET http://localhost:8080/product
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-11T073557.200.json
+
+###
+
+GET http://localhost:8080/product/3
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-11T073402.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 78
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "test11",
+  "quantity": 20,
+  "unit_cost": 80,
+  "measure_id": 1
+}
+
+<> 2024-03-11T063055.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 78
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "test10",
+  "quantity": 20,
+  "unit_cost": 80,
+  "measure_id": 1
+}
+
+<> 2024-03-11T063053.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "test9",
+  "quantity": 20,
+  "unit_cost": 80,
+  "measure_id": 1
+}
+
+<> 2024-03-11T063050.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "test8",
+  "quantity": 20,
+  "unit_cost": 80,
+  "measure_id": 1
+}
+
+<> 2024-03-11T063048.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "test7",
+  "quantity": 20,
+  "unit_cost": 80,
+  "measure_id": 1
+}
+
+<> 2024-03-11T063046.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "test6",
+  "quantity": 20,
+  "unit_cost": 80,
+  "measure_id": 1
+}
+
+<> 2024-03-11T063044.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "test5",
+  "quantity": 20,
+  "unit_cost": 80,
+  "measure_id": 1
+}
+
+<> 2024-03-11T063041.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "test4",
+  "quantity": 20,
+  "unit_cost": 80,
+  "measure_id": 1
+}
+
+<> 2024-03-11T063039.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "test3",
+  "quantity": 20,
+  "unit_cost": 80,
+  "measure_id": 1
+}
+
+<> 2024-03-11T063037.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 77
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "test2",
+  "quantity": 20,
+  "unit_cost": 80,
+  "measure_id": 1
+}
+
+<> 2024-03-11T063034.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "test",
+  "quantity": 20,
+  "unit_cost": 80,
+  "measure_id": 1
+}
+
+<> 2024-03-11T063032.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 86
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "сметана",
+  "quantity": 20,
+  "unit_cost": 80,
+  "measure_id": 1
+}
+
+<> 2024-03-11T061712.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 84
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "йогурт",
+  "quantity": 20,
+  "unit_cost": 50,
+  "measure_id": 1
+}
+
+<> 2024-03-11T061705.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 87
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "шоколад",
+  "quantity": 30,
+  "unit_cost": 100,
+  "measure_id": 1
+}
+
+<> 2024-03-11T061549.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 80
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "вода",
+  "quantity": 50,
+  "unit_cost": 60,
+  "measure_id": 1
+}
+
+<> 2024-03-11T061447.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 87
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "майонез",
+  "quantity": 18,
+  "unit_cost": 120,
+  "measure_id": 1
+}
+
+<> 2024-03-11T061432.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 95
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "куриное филе",
+  "quantity": 8,
+  "unit_cost": 360,
+  "measure_id": 1
+}
+
+<> 2024-03-11T061418.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 89
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "пельмени",
+  "quantity": 20,
+  "unit_cost": 300,
+  "measure_id": 1
+}
+
+<> 2024-03-11T061400.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 82
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "кефир",
+  "quantity": 12,
+  "unit_cost": 68,
+  "measure_id": 1
+}
+
+<> 2024-03-11T061338.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 86
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "колбаса",
+  "quantity": 8,
+  "unit_cost": 250,
+  "measure_id": 1
+}
+
+<> 2024-03-11T061324.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 80
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "яйца",
+  "quantity": 5,
+  "unit_cost": 150,
+  "measure_id": 1
+}
+
+<> 2024-03-10T071648.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 80
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "хлеб",
+  "quantity": 50,
+  "unit_cost": 50,
+  "measure_id": 1
+}
+
+<> 2024-03-10T071623.200.json
+
+###
+
+GET http://localhost:8080/product
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-10T070059.200.json
+
+###
+
+GET http://localhost:8080/product
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-10T065939.200.json
+
+###
+
+GET http://localhost:8080/product
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-10T064710.200.json
+
+###
+
+GET http://localhost:8080/product
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-10T060912.200.json
+
+###
+
+GET http://localhost:8080/product
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-10T055700.200.json
+
+###
+
+GET http://localhost:8080/product
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-10T055657.200.json
+
+###
+
+GET http://localhost:8080/product
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-10T055632.200.json
+
+###
+
+GET http://localhost:8080/product
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-10T055629.200.json
+
+###
+
+GET http://localhost:8080/product
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-10T055337.200.json
+
+###
+
+GET http://localhost:8080/product/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-08T113254.400.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 84
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "молоко",
+  "quantity": 10,
+  "unit_cost": 50,
+  "measure_id": 1
+}
+
+<> 2024-03-08T113250.200.json
+
+###
+
+PUT http://localhost:8080/product/1
+Content-Type: application/json
+Content-Length: 95
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 1,
+  "name": "Молоко",
+  "quantity": 10,
+  "unit_cost": 50,
+  "measure_id": 2
+}
+
+<> 2024-03-08T113247.500.json
+
+###
+
+PUT http://localhost:8080/measure/2
+Content-Type: application/json
+Content-Length: 23
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "value": "гр"
+}
+
+<> 2024-03-08T113233.500.json
+
+###
+
+POST http://localhost:8080/measure
+Content-Type: application/json
+Content-Length: 27
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "value": "литр"
+}
+
+<> 2024-03-08T113225.200.json
+
+###
+
+POST http://localhost:8080/product
+Content-Type: application/json
+Content-Length: 84
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "name": "молоко",
+  "quantity": 10,
+  "unit_cost": 50,
+  "measure_id": 1
+}
+
+<> 2024-03-08T113218.500.json
+
+###
+
+PUT http://localhost:8080/product/1
+Content-Type: application/json
+Content-Length: 95
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 1,
+  "name": "Молоко",
+  "quantity": 10,
+  "unit_cost": 50,
+  "measure_id": 2
+}
+
+<> 2024-03-08T113208.500.json
+
+###
+
+GET http://localhost:8080/product/1
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-08T113158.400.json
+
+###
+
+GET http://localhost:8080/product
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-03-08T113154.200.json
+
+###
+

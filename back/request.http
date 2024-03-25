@@ -1,0 +1,59 @@
+### Get Product
+GET http://localhost:8080/product
+
+### Get Product by ID
+GET http://localhost:8080/product/3
+
+### Post Product
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+  "name": "test11",
+  "quantity": 20,
+  "unit_cost": 80,
+  "measure_id": 1
+}
+
+### Put Product
+PUT http://localhost:8080/product/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Молоко",
+  "quantity": 10,
+  "unit_cost": 50,
+  "measure_id": 2
+}
+
+### Delete Product
+DELETE  http://localhost:8080/product/19
+
+################################################################################################################################
+
+### Get Product
+GET http://localhost:8080/measure
+
+### Get Product by ID
+GET http://localhost:8080/measure/3
+
+
+### POST measure
+POST http://localhost:8080/measure
+Content-Type: application/json
+
+{
+    "value": "л"
+}
+
+### PUT measure
+PUT http://localhost:8080/measure/2
+Content-Type: application/json
+
+{
+    "value": "гр"
+}
+
+### Delete measure
+DELETE  http://localhost:8080/measure/10
